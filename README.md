@@ -18,7 +18,7 @@ https://jaitalk.woza.work/
 - Use with E-Bot or T-Bot to learn English or Thai.
 - Let JaiTalk listen in a meeting and quietly text translate for you. You may need an external mic.
 - Doctors can use Jaitalk to talk with patients who don't speak their language, especially patients who are refugees and immigrants.
-- Teachers can use JaiTalk when talking to the parents of their foreign students. Usually immigrant children can speak the local language but their parents's can't.
+- School teachers can use JaiTalk when talking to the parents of their foreign students. Usually immigrant children can speak the local language but their parents's can't.
 - Other uses still to be imagined...
 
 <br>
