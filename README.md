@@ -14,16 +14,15 @@ https://jaitalk.woza.work/
 <br>
 
 ## Quick Info
+- Easy to modify the code to support other languages
 - Supports both voice and text inputs
-- Mobile optimized web app
+- Only usable on desktop
 - Minimalist and visually calm UI design
 - Frontend: Html, CSS, Javascript
 - Backend: PHP
 - Uses the Gemini 2.0 Flash API (Free version)
-- Set up as a three-agent LLM system - chat, correction, translation
 - Uses Javascript SpeechRecognition to convert the user's speech into text.
 - Uses Javascript SpeechSynthesis to convert text to speech
-- Has visual audio cues for deaf learners
 - Can be deployed on any website hosting platform
 
 <i>Powered by Google Gemini 2.0 Flash (Free version)<br>
