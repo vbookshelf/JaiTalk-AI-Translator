@@ -43,6 +43,14 @@ https://jaitalk.woza.work/
 <br>
 <br>
 
+### How to deploy this web app
+
+### How to modify the code to support other languages
+
 ### Why do we need to toggle between languages?
 
 Because the Javascript speech to text system does not automatically detect the spoken language. You could try replacing the speech to text system with with a paid system like OpenAi Whisper, which auto detects the spoken language. This could create a more natural conversation flow when two people are talking.
+
+### Similar projects
+
+### Revision history
