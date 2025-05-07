@@ -119,7 +119,7 @@ That's all that you need to do. JaiTalk will now work in Spanish. You can also u
 
 ### Why do we need to toggle between languages?
 
-Because the Javascript speech to text system does not automatically detect the spoken language. You could try replacing the speech to text system with with a paid system like OpenAi Whisper, which auto detects the spoken language. This could create a more natural conversation flow when two people are talking. Another idea would be to record and send audio files directly to Gemini for transcription and translation. Gemini does not need to be explicitly told what language the audio is in.
+Because the Javascript speech to text system does not automatically detect the spoken language. You could try replacing the speech to text system with with a paid system like OpenAi Whisper, which auto detects the spoken language. This could create a more natural conversation flow when two people are talking.
 <br>
 <br>
 
