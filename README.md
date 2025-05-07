@@ -4,6 +4,8 @@
 ### การแปลเสียงและข้อความภาษาอังกฤษ-ไทยแบบเรียลไทม์
 <br>
 
+JaiTalk listens and then translates between English and Thai. It also speaks the translation out loud. The settings in the code can be easily mofified to support other languages.
+
 Live Demo:<br>
 https://jaitalk.woza.work/
 
@@ -11,11 +13,20 @@ https://jaitalk.woza.work/
 <img src="https://github.com/vbookshelf/JaiTalk-AI-Translator/blob/main/images/image1.png" width="500"></img>
 <br>
 
+## Uses
+- Use JaiTalk as a translator to chat with a foreign friend.
+- Use with E-Bot or T-Bot to learn English or Thai.
+- Let JaiTalk listen in a meeting and quietly translate for you. You may need an external mic.
+- Doctors can use Jaitalk to talk with patients who don't speak their language, especially patients who are refugees and immigrants.
+- Teachers can use JaiTalk when talking to the parents of their foreign students. Usually immigrant children can speak the local language but their parents's can't.
+- Other uses still to be imagined...
+
 <br>
 
 ## Quick Info
 - Easy to modify the code to support other languages
 - Supports both voice and text inputs
+- Web app
 - Only usable on desktop
 - Minimalist and visually calm UI design
 - Frontend: Html, CSS, Javascript
