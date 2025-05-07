@@ -85,8 +85,8 @@ lang_code = language1_code;
 
 3. In the name_config.php file modify the code like this:
 ```
-$bot_name = 'Translation'; 	// Give the bot a name
-$user_name = 'Input';	// Set the user's name 
+$bot_name = 'Translation'; 
+$user_name = 'Input';	
 
 // English
 $language1 = "English";
