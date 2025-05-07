@@ -113,7 +113,8 @@ $language2_voice = "Jorge";
 ```
 
 That's all that you need to do. JaiTalk will now work in Spanish. You can also update the button descriptions and other text in the index.php file.
-
+<br>
+<br>
 
 
 ### Why do we need to toggle between languages?
@@ -121,5 +122,21 @@ That's all that you need to do. JaiTalk will now work in Spanish. You can also u
 Because the Javascript speech to text system does not automatically detect the spoken language. You could try replacing the speech to text system with with a paid system like OpenAi Whisper, which auto detects the spoken language. This could create a more natural conversation flow when two people are talking.
 
 ### Similar projects
+- E-Bot English Practice Chatbot<br>
+Practice English conversation using AI<br>
+https://e-bot.woza.work/
+
+- T-Bot Thai Language Practice Chatbot<br>
+Practice Thai conversation using AI<br>
+https://t-bot.woza.work/
+
+<br>
+<br>
 
 ### Revision history
+
+Version 1.0<br>
+7-May-2025<br>
+First release
+<br>
+<br>
