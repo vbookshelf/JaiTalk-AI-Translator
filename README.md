@@ -4,7 +4,7 @@
 ### การแปลเสียงและข้อความภาษาอังกฤษ-ไทยแบบเรียลไทม์
 <br>
 
-JaiTalk is an AI powered web app translator that listens and then translates between English and Thai. It also speaks the translation out loud. The settings in the code can be easily mofified to support other languages.
+JaiTalk is an AI powered web app translator that listens and then translates between English and Thai. It also speaks the translation out loud. The settings in the code can be easily modified to support other languages.
 
 Live Demo:<br>
 https://jaitalk.woza.work/
