@@ -52,7 +52,7 @@ https://ai.google.dev/gemini-api/docs/models/gemini#available-languages
 
 Now let's say the you wanted to change Thai to Spanish. These are the steps you should follow.
 
-1. Get the available voices for Spanish. Run this Javascript code in the index.php file. The code will print out the available voices for Spanis. The output will appear in the console. Note that in the code we are using the language code for Spanish: es-ES. One of the voices printed out will be Jorge.
+1. Get the available voices for Spanish. Run this Javascript code in the index.php file. The code will print out the voices available for Spanish. The output will appear in the console. Note that in the code we are using the language code for Spanish: es-ES. One of the voices printed out will be Jorge.
 
 ```
 <script>
