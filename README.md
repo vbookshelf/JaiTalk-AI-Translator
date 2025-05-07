@@ -73,7 +73,7 @@ language1 = "English";
 language1_code = "en-UK"; 
 language1_voice_orig = "Serena";
 
-// Spanish
+// Spanish (Change only these three lines)
 language2 = "Spanish";
 language2_code = "es-ES";
 language2_voice_orig = "Jorge";
@@ -93,7 +93,7 @@ $language1 = "English";
 $language1_code = "en-UK";
 $language1_voice = "Serena";
 
-// Spanish
+// Spanish (Change only these three lines)
 $language2 = "Spanish";
 $language2_code = "es-ES";
 $language2_voice = "Jorge";
