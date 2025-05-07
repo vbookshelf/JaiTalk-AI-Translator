@@ -47,6 +47,62 @@ https://jaitalk.woza.work/
 
 ### How to modify the code to support other languages
 
+The settings in the code can be easily modified to change the languages. For best results I suggest you use languages that are supported by the Google Gemini model. You can find a list of supported languages here:<br>
+https://ai.google.dev/gemini-api/docs/models/gemini#available-languages
+
+Now let's say the you wanted to change Thai to Spanish. These are the steps you should follow.
+
+1. Get the available voices for Spanish. Run this Javascript code in the index.php file. The code will print out the available voices for Spanis. The output will appear in the console. Note that in the code we are using the language code for Spanish: es-ES. One of the voices printed out will be Jorge.
+
+```
+<script>
+speechSynthesis.onvoiceschanged = () => {
+  const voices = speechSynthesis.getVoices();
+  voices
+    .filter(v => v.lang === 'es-ES')
+    .forEach(v => console.log(`${v.name} (${v.lang})`));
+};
+</script>
+```
+
+2. In the config.js file modify the code like this:
+(Use IETF language tags e.g. es-ES)
+```
+// English
+language1 = "English";
+language1_code = "en-UK"; 
+language1_voice_orig = "Serena";
+
+// Spanish
+language2 = "Spanish";
+language2_code = "es-ES";
+language2_voice_orig = "Jorge";
+
+// This is the language that the speech recognition 
+// system is detecting when the page loads.
+lang_code = language1_code;
+```
+
+3. In the name_config.php file modify the code like this:
+```
+$bot_name = 'Translation'; 	// Give the bot a name
+$user_name = 'Input';	// Set the user's name 
+
+// English
+$language1 = "English";
+$language1_code = "en-UK";
+$language1_voice = "Serena";
+
+// Spanish
+$language2 = "Spanish";
+$language2_code = "es-ES";
+$language2_voice = "Jorge";
+```
+
+That's all that you need to do. JaiTalk will now work in Spanish. You can also update the button descriptions and other text in the index.php file.
+
+
+
 ### Why do we need to toggle between languages?
 
 Because the Javascript speech to text system does not automatically detect the spoken language. You could try replacing the speech to text system with with a paid system like OpenAi Whisper, which auto detects the spoken language. This could create a more natural conversation flow when two people are talking.
